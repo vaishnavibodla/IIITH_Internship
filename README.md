@@ -8,16 +8,26 @@ This repository contains multiple tasks using the Ultralytics YOLOv8 model as pa
 
 ##  Contents
 
-1. [Task 1: Image Detection](./yolov8-image-detection/README.md)  
-   - Object detection on a single image (e.g., a bus)
+###  Task 1 — Image Detection
+An object detection task using YOLOv8 to identify objects in a single image.  
+- **Example:** Detecting a bus in an image  
+- **Model:** YOLOv8  
+- **Applications:** Static image analysis, quick object detection demos  
 
-2. [Task 2: Segmentation](./ultralytics-segmentation/README.md)  
-   - Image and video segmentation using YOLOv8-seg
+###  Task 2 — Segmentation
+Image and video segmentation using YOLOv8-seg to separate objects from the background.  
+- **Model:** YOLOv8-seg  
+- **Features:** Pixel-level object segmentation  
+- **Applications:** Background removal, video object tracking  
 
-3. [Task 3: Training](./african-wildlife-detection/README.md)  
-   - Training YOLOv8 on a custom African Wildlife dataset
 
-4.Task 4 — Vehicle Object Detection
+###  Task 3 — Training on African Wildlife Dataset
+Training YOLOv8 on a custom African Wildlife dataset for object detection.  
+- **Model:** YOLOv8  
+- **Dataset:** African Wildlife dataset  
+- **Applications:** Wildlife research, species monitoring, conservation  
+
+### Task 4 — Vehicle Object Detection
 
    A YOLOv8-based deep learning project to detect various types of vehicles in images and videos.  
    - **Model:** YOLOv8  
@@ -25,7 +35,7 @@ This repository contains multiple tasks using the Ultralytics YOLOv8 model as pa
    - **Dataset:** Custom annotated dataset  
    - **Applications:** Traffic monitoring, autonomous vehicles, surveillance  
 
-IIITH_Project — Brain Tumor Detection
+### IIITH_Project — Brain Tumor Detection
    A medical imaging project using YOLOv11 for brain tumor detection from MRI scans.  
    - **Model:** YOLOv11  
    - **Features:** Detects tumor presence and localizes affected regions  
