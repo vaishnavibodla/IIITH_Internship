@@ -1,0 +1,13 @@
+train: C:\Users\vyshu\Downloads\Vehicle Object Detection Project.v1i.yolov8\train\images
+val: C:\Users\vyshu\Downloads\Vehicle Object Detection Project.v1i.yolov8\train\images
+#test: C:\sUsers\vyshu\Downloads\Vehicle Object Detection Project\test\images
+
+nc: 3
+names: ['car', 'truck', 'van']
+
+roboflow:
+  workspace: vaishnavi-bodla-fb5yf
+  project: vehicle-object-detection-project-t2dwi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vaishnavi-bodla-fb5yf/vehicle-object-detection-project-t2dwi/dataset/1
